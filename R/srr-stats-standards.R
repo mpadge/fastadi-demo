@@ -116,6 +116,9 @@
 #'
 #' @srrstats {UL7.0} *Inappropriate types of input data are rejected with expected error messages.*
 #'
+#' @srrstatsTODO {UL7.1} *Tests should demonstrate that violations of assumed input properties yield unreliable or invalid outputs, and should clarify how such unreliability or invalidity is manifest through the properties of returned objects.* LOL this will be really hard.
+#'
+#'
 #' @noRd
 NULL
 
@@ -198,8 +201,6 @@ NULL
 #' @srrstatsNA {UL6.1} *Where the default `plot` method is **NOT** a generic `plot` method dispatched on the class of return objects (that is, through a `plot.<myclass>` function), that method dispatch should nevertheless exist in order to explicitly direct users to the appropriate function.*
 #'
 #' @srrstatsNA {UL6.2} *Where default plot methods include labelling components of return objects (such as cluster labels), routines should ensure that labels are automatically placed to ensure readability, and/or that appropriate diagnostic messages are issued where readability is likely to be compromised (for example, through attempting to place too many labels).*
-#'
-#' @srrstatsTODO {UL7.1} *Tests should demonstrate that violations of assumed input properties yield unreliable or invalid outputs, and should clarify how such unreliability or invalidity is manifest through the properties of returned objects.* LOL this will be really hard.
 #'
 #' @srrstatsNA {UL7.2} *Demonstrate that labels placed on output data follow decreasing group sizes (**UL3.1**)*
 #'
