@@ -104,6 +104,20 @@ NULL
 
 #' NA_standards
 #'
+#' @srrstatsNA {G1.4a}
+#' @srrstatsNA {G1.6}
+#' @srrstatsNA {G2.0a}
+#' @srrstatsNA {G2.14}
+#' @srrstatsNA {G2.14a}
+#' @srrstatsNA {G2.14b}
+#' @srrstatsNA {G2.14c}
+#' @srrstatsNA {G2.15}
+#' @srrstatsNA {G2.16}
+#' @srrstatsNA {G3.1}
+#' @srrstatsNA {G3.1a}
+#' @srrstatsNA {UL1.4a}
+#' @srrstatsNA {UL1.4b}
+#'
 #' @srrstatsNA {UL3.3} *Unsupervised Learning Software for which input data does not generally include labels (such as `array`-like data with no row names) should provide an additional parameter to enable cases to be labelled.*
 #'
 #' @srrstatsNA {UL4.1} *Unsupervised Learning Software may enable an ability to generate a model object without actually fitting values. This may be useful for controlling batch processing of computationally intensive fitting algorithms.*
