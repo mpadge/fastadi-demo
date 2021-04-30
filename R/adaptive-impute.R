@@ -70,6 +70,12 @@
 #'   and Graphical Statistics 1–26 (2018) doi:10.1080/10618600.2018.1518238.
 #'   <https://amstat.tandfonline.com/doi/abs/10.1080/10618600.2018.1518238>
 #'
+#' @srrstats {G1.3} *Software should use [`roxygen2`](https://roxygen2.r-lib.org/) to document all functions.*
+#'
+#' @srrstats {G2.0} *Implement assertions on lengths of inputs, particularly through asserting that inputs expected to be single- or multi-valued are indeed so.*
+#'
+#' @srrstats {G2.1a} *Provide explicit secondary documentation of expectations on data types of all vector inputs.*
+#'
 #' @examples
 #'
 #' ### SVD initialization (default) --------------------------------------------
@@ -220,6 +226,14 @@ adaptive_impute.sparseMatrix <- function(
 
 #' @export
 #' @rdname adaptive_impute
+#' @srrstats {G2.3a} *Use `match.arg()` or equivalent where applicable to only permit expected values.*
+#'
+#' @srrstats {G1.1} *Statistical Software should document whether the algorithm(s) it implements are:* - *The first implementation of a novel algorithm*; or - *The first implementation within **R** of an algorithm which has previously been implemented in other languages or contexts*; or - *An improvement on other implementations of similar algorithms in **R***.
+#'
+#' @srrstats {G1.2} *All statistical terminology should be clarified and unambiguously defined.*
+#'
+#' @srrstats {G1.2a} *All internal (non-exported) functions should also be documented in standard [`roxygen2`](https://roxygen2.r-lib.org/) format, along with a final `@noRd` tag to suppress automatic generation of `.Rd` files.*
+#'
 adaptive_impute.LRMF <- function(
   X,
   rank,

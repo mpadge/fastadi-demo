@@ -13,7 +13,7 @@ adaptive_impute(
   initialization = c("svd", "adaptive-initialize", "approximate"),
   max_iter = 200L,
   check_interval = 1L,
-  epsilon = 1e-07,
+  epsilon = 0.0000001,
   additional = NULL
 )
 
@@ -29,7 +29,7 @@ adaptive_impute(
   X,
   rank,
   ...,
-  epsilon = 1e-07,
+  epsilon = 0.0000001,
   max_iter = 200L,
   check_interval = 1L
 )
