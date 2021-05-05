@@ -25,8 +25,8 @@ Description: Implements the AdaptiveImpute matrix completion
     often out performs competing matrix completion algorithms, and
     self-tunes its hyperparameter, making usage easy.
 License: MIT + file LICENSE
-URL: https://github.com/RoheLab/fastadi
-BugReports: https://github.com/RoheLab/fastadi/issues
+URL: https://github.com/mpadge/fastadi-demo
+BugReports: https://github.com/mpadge/fastadi-demo/issues
 Depends: 
     LRMF3 (>= 0.0.0.9007),
     Matrix,
